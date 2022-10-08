@@ -1,9 +1,57 @@
 body {
-    background: lightblue;
-    font: 18px Arial, Helvetica, sans-serif;
-  }
-  
-  h1 {
-    font: 30px sans-serif;
-  }
-  
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+:root {
+  /* it refers the root element called html 
+    : formatings for ur root element/html tag will be specified here
+*/
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+  --font-face: "arial";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0; /* top, right, bottom, left */
+  padding: 0;
+}
+/* a tag*/
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+ul {
+  /* unordered list wherever we will use ul tag there it will be applied. to handle the menu items*/
+  list-style: none;
+}
+
+img {
+  /* image tag */
+
+  width: 100%;
+}
+
+/* creating custom styles for : there we have to define th css classes. 
+.className
+*/
+.btn {
+  /* here btn is a custom class which iwll hold all btn related details(formatting)*/
+
+  display: inline-block;
+  background: var(--light-color);
+  color: #333;
+  padding: 0.4rem 1.3rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: opacity 0.2s, ease-in;
+  outline: none;
+}
