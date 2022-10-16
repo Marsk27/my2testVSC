@@ -302,7 +302,7 @@ img {
   .landing {
     position: relative;
     background: url("../images/showcase.jpg");
-   height: 100vh;
+   height: 100vh; /* vh : viewport height */
  }
 
   .landing-inner {
