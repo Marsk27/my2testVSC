@@ -301,10 +301,9 @@ img {
   /*landing page*/
   .landing {
     position: relative;
-    background: url('../img/showcase.jpg');
-    height: 100vh;
-
-  }
+    background: url("../images/showcase.jpg");
+   height: 100vh;
+ }
 
   .landing-inner {
     color: #fff;
