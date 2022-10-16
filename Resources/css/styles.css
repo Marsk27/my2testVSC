@@ -128,7 +128,7 @@ img {
 
 .btn {
   display: inline-block;
-
+  background: var(--dark-color);
   color: #333;
   padding: 0.4rem 1.3rem;
   font-size: 1rem;
@@ -233,71 +233,6 @@ img {
   width: 100%;
   height: 100%;
 }
-
-/* Forms */
-.form .form-group {
-  margin: 1.2rem 0;
-}
-
-.form .form-text {
-  display: block;
-  margin-top: 0.3rem;
-  color: #888;
-}
-
-.form input[type="text"],
-.form input[type="email"],
-.form input[type="password"],
-.form input[type="date"],
-.form select,
-.form textarea {
-  display: block;
-  width: 100%;
-  padding: 0.4rem;
-  font-size: 1.2rem;
-  border: 1px solid #ccc;
-}
-
-.form input[type="submit"],
-button {
-  font: inherit;
-}
-
-.form .social-input {
-  display: flex;
-}
-
-.form .social-input i {
-  padding: 0.5rem;
-  width: 4rem;
-}
-
-.form .social-input i.fa-twitter {
-  color: #38a1f3;
-}
-.form .social-input i.fa-facebook {
-  color: #3b5998;
-}
-.form .social-input i.fa-instagram {
-  color: #3f729b;
-}
-.form .social-input i.fa-youtube {
-  color: #c4302b;
-}
-.form .social-input i.fa-linkedin {
-  color: #0077b5;
-}
-
-.table th,
-.table td {
-  padding: 1rem;
-  text-align: left;
-}
-
-.table th {
-  background: var(--light-color);
-}
-
 /* Navbar */
 .navbar {
   display: flex;
@@ -330,83 +265,53 @@ button {
   margin-right: 0.6rem;
 }
 
-/* Landing Page */
-.landing {
-  position: relative;
-  background: url("../img/showcase.jpg");
-  height: 100vh; /* vh : viewport height*/
-}
 
-.landing-inner {
-  color: #fff;
-  height: 100%;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
+  /* Text Styles */
+  .x-large {
+    font-size: 3rem;
+  }
 
-/* Navbar */
-.navbar {
-  display: block;
-  text-align: center;
-}
+  .large {
+    font-size: 2rem;
+  }
 
-.navbar ul {
-  text-align: center;
-  justify-content: center;
-}
+  .lead {
+    font-size: 1rem;
+  }
 
-.navbar h1 {
-  margin-bottom: 1rem;
-}
+  /* Navbar 
+  .navbar {
+    display: block;
+    text-align: center;
+  }
+*/
+  .navbar ul {
+    text-align: center;
+    justify-content: center;
+  }
 
-.navbar .welcome {
-  display: none;
-}
+  .navbar h1 {
+    margin-bottom: 1rem;
+  }
 
-/* Profiles Page */
-.profile {
-  grid-template-columns: 1fr;
-  text-align: center;
-}
+  .navbar .welcome {
+    display: none;
+  }
 
-.profile ul {
-  display: none;
-}
+  /*landing page*/
+  .landing {
+    position: relative;
+    background: url('../img/showcase.jpg');
+    height: 100vh;
 
-/* Profile Page */
+  }
 
-.profile-top img,
-.profile img {
-  width: 200px;
-  margin: auto;
-}
-
-.profile-grid {
-  grid-template-areas:
-    "top"
-    "about"
-    "exp"
-    "edu"
-    "github";
-}
-
-.profile-about .skills {
-  flex-direction: column;
-}
-
-.dash-buttons a {
-  display: block;
-  width: 100%;
-  margin-bottom: 0.2rem;
-}
-
-.post {
-  grid-template-columns: 1fr;
-}
-.post a,
-.post button {
-  padding: 0.3rem 0.4rem;
-}
+  .landing-inner {
+    color: #fff;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
