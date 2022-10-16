@@ -298,7 +298,7 @@ img {
     align-items: center;
     text-align: center;
   }
-/*profile related css classes*/
+/*profiles related css classes*/
 .profile {
   display: grid;
   grid-template-columns: 2fr 4fr 2fr;
