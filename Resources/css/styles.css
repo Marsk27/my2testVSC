@@ -419,10 +419,12 @@ button {
 }
 
 .profile-exp {
+  float: left;
   grid-area: exp;
 }
 
 .profile-edu {
+  float: right;
   grid-area: edu;
 }
 
