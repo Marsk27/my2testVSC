@@ -31,3 +31,9 @@ if (sum == temp) {
 } else {
   console.log("no is not strong ");
 }
+
+
+// palindrome number :
+// 121: 121 original number and reverse number is the same.
+//2022 :2202 
+// 221 :221 original number and reverse number are the same.
